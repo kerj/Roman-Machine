@@ -43,7 +43,7 @@ $(document).ready(function(){
       }else if (userInput >= 100){
         if(userInput >= 400){
           romanNumeralOutput.push("CD");
-          var i = (i - 400)
+          var i = (i - 400);
           userInput = i;
         }else{
           romanNumeralOutput.push("C");
@@ -53,7 +53,7 @@ $(document).ready(function(){
       }else if (userInput >= 50){
         if(userInput >= 90){
           romanNumeralOutput.push("XC");
-          var i = (i - 90)
+          var i = (i - 90);
           userInput = i;
         }else{
           romanNumeralOutput.push("L");
@@ -63,7 +63,7 @@ $(document).ready(function(){
       }else if (userInput >= 10){
         if (userInput >= 40){
           romanNumeralOutput.push("XL")
-          var i = (i - 40)
+          var i = (i - 40);
           userInput = i;
         }else{
           romanNumeralOutput.push("X");
@@ -73,7 +73,7 @@ $(document).ready(function(){
       }else if (userInput >= 5){
         if (userInput >= 9){
           romanNumeralOutput.push("IX")
-          var i = (i - 9)
+          var i = (i - 9);
           userInput = i;
         }else{
           romanNumeralOutput.push("V");
@@ -82,11 +82,11 @@ $(document).ready(function(){
         }
       }else if (userInput >= 4){
           romanNumeralOutput.push("IV")
-          var i = (i - 4)
+          var i = (i - 4);
           userInput = i;
         }else{
           romanNumeralOutput.push("I")
-          var i = (i - 1)
+          var i = (i - 1);
           userInput = i;
         }
         console.log(romanNumeralOutput);
